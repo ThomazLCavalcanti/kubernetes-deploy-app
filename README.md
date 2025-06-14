@@ -1,7 +1,6 @@
 # Deploy de Aplicação em Kubernetes (Minikube)
 
-Este projeto demonstra como realizar o deploy de uma aplicação Python containerizada em um cluster Kubernetes local utilizando o Minikube. Ele abrange a criação de recursos Kubernetes como Namespaces, Deployments, Services, Ingress, ConfigMaps e Secrets, além de incluir testes automatizados e imagens ilustrativas.
-
+Este projeto demonstra como realizar o deploy de uma aplicação Python containerizada em um cluster Kubernetes local utilizando o Minikube. Ele abrange a criação de recursos Kubernetes como Namespaces, Deployments, Services, Ingress, ConfigMaps e Secrets.
 ## Etapas de Execução
 
 1. Inicie o Minikube:
