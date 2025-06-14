@@ -1,0 +1,27 @@
+# Arquivos do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+.env.*
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Configurações de IDEs/editors
+.vscode/
+.idea/
+*.swp
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de testes
+/testes/resultados.md
+
+# Imagens geradas localmente
+/imagens/*.png
