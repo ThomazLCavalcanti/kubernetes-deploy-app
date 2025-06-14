@@ -26,17 +26,6 @@ Este documento apresenta os resultados esperados dos testes executados no ambien
 
 ---
 
-## Validações Visuais
-
-- O painel do Minikube (imagem: `painel_minikube.png`) deve mostrar o namespace, pods, service e ingress criados corretamente.
-- A aplicação deve responder com a mensagem:
-
-```
-Aplicação Python rodando em Kubernetes com sucesso!
-```
-
----
-
 ## Conclusão
 
 Os testes demonstram que a aplicação foi corretamente implantada, estável e acessível via Ingress. A automação com `test_app.sh` permite verificação contínua da disponibilidade da aplicação.
