@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-demo-config
+  namespace: app-demo
+data:
+  APP_NAME: "MeuAppK8s"
+  APP_ENV: "production"
+  APP_DEBUG: "false"
